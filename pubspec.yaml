@@ -1,13 +1,13 @@
 name: flutter_radial_gauge
 description: "A customizable radial gauge widget for Flutter."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Jainakin/flutter_radial_gauge
 repository: https://github.com/Jainakin/flutter_radial_gauge
 issue_tracker: https://github.com/Jainakin/flutter_radial_gauge/issues
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
-  flutter: ">=1.17.0"
+  flutter: ">=1.20.0"
 
 dependencies:
   flutter:
@@ -18,11 +18,12 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^3.0.0
 
+platforms:
+  ios:
+  android:
+  web:
+  macos:
+  windows:
+  linux:
+
 flutter:
-  plugin:
-    platforms:
-      android:
-        package: com.example.flutter_radial_gauge
-        pluginClass: FlutterRadialGaugePlugin
-      ios:
-        pluginClass: FlutterRadialGaugePlugin
