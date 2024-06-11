@@ -9,7 +9,7 @@ A customizable RadialGauge widget for Flutter applications. This widget allows y
 - Interactive gauge with callback for value changes
 - Easy to integrate and use
 
-[![Radial Gauge Demo](https://img.youtube.com/vi/lMeLfTltvps/0.jpg)](https://www.youtube.com/watch?v=lMeLfTltvps)
+[![Radial Gauge Demo](assets/radial_gauge_demo.png)](https://www.youtube.com/watch?v=lMeLfTltvps)
 
 ## Getting Started
 
@@ -17,21 +17,6 @@ A customizable RadialGauge widget for Flutter applications. This widget allows y
 
 - Flutter SDK: `>=1.17.0`
 - Dart SDK: `>=3.0.0 <4.0.0`
-
-### Installation
-
-Add the package to your `pubspec.yaml` file:
-
-```yaml
-dependencies:
-  flutter_radial_gauge: ^0.0.1
-```
-
-Then run:
-
-```sh
-flutter pub get
-```
 
 ## Usage
 
@@ -50,17 +35,6 @@ RadialGauge(
     print('Current value: $value');
   },
 )
-```
-
-## Example
-
-To see an example of how to use the RadialGauge widget, check out the [example](example) directory.
-
-To run the example, use the following commands:
-
-```sh
-cd example
-flutter run
 ```
 
 ## Parameters

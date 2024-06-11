@@ -1,3 +1,7 @@
+### 0.0.4
+
+* Added demo image in README file.
+
 ### 0.0.3
 
 * Added example usage in the `example` directory.
