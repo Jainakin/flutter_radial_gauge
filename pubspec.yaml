@@ -1,6 +1,6 @@
 name: flutter_radial_gauge
-description: "A customizable radial gauge widget for Flutter."
-version: 0.0.2
+description: "A customizable radial gauge widget for Flutter, ideal for displaying values in a circular format with interactive features and extensive customization options."
+version: 0.0.3
 homepage: https://github.com/Jainakin/flutter_radial_gauge
 repository: https://github.com/Jainakin/flutter_radial_gauge
 issue_tracker: https://github.com/Jainakin/flutter_radial_gauge/issues
@@ -27,3 +27,7 @@ platforms:
   linux:
 
 flutter:
+  uses-material-design: true
+
+example:
+  path: example/

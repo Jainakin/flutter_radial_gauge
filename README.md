@@ -9,6 +9,8 @@ A customizable RadialGauge widget for Flutter applications. This widget allows y
 - Interactive gauge with callback for value changes
 - Easy to integrate and use
 
+[![Radial Gauge Demo](https://img.youtube.com/vi/lMeLfTltvps/0.jpg)](https://www.youtube.com/watch?v=lMeLfTltvps)
+
 ## Getting Started
 
 ### Prerequisites
@@ -50,36 +52,15 @@ RadialGauge(
 )
 ```
 
-### Example
+## Example
 
-Here is a complete example of using the RadialGauge widget in a Flutter application:
+To see an example of how to use the RadialGauge widget, check out the [example](example) directory.
 
-```dart
-import 'package:flutter/material.dart';
-import 'package:flutter_radial_gauge/flutter_radial_gauge.dart';
+To run the example, use the following commands:
 
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: Text('Radial Gauge Example')),
-        body: Center(
-          child: RadialGauge(
-            initialValue: 50.0,
-            onValueChanged: (value) {
-              print('Current value: $value');
-            },
-          ),
-        ),
-      ),
-    );
-  }
-}
+```sh
+cd example
+flutter run
 ```
 
 ## Parameters

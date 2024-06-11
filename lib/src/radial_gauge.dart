@@ -18,7 +18,6 @@ import 'package:flutter/material.dart';
 ///   },
 /// )
 /// ```
-
 class RadialGauge extends StatefulWidget {
   /// The initial value of the gauge.
   ///
@@ -149,18 +148,44 @@ class _RadialGaugeState extends State<RadialGauge> {
   }
 }
 
+/// A custom painter for the [RadialGauge] widget.
+///
+/// This painter is responsible for rendering the radial gauge, including
+/// the background circle, progress arc, and pointer elements.
 class RadialGaugePainter extends CustomPainter {
+  /// The current value of the gauge, ranging from 0 to 100.
   final double value;
+
+  /// The inner radius of the gauge.
   final double innerRadius;
+
+  /// The outer radius of the gauge.
   final double outerRadius;
+
+  /// The background color of the gauge.
   final Color backgroundColor;
+
+  /// The foreground color of the gauge, representing the filled portion.
   final Color foregroundColor;
+
+  /// The radius of the pointer circle.
   final double pointerRadius;
+
+  /// The stroke width of the pointer circle.
   final double pointerStrokeWidth;
+
+  /// The fill color of the pointer circle.
   final Color pointerFillColor;
+
+  /// The stroke color of the pointer circle.
   final Color pointerStrokeColor;
+
+  /// The color of the small rectangle inside the pointer circle.
   final Color pointerRectColor;
 
+  /// Creates a new RadialGaugePainter.
+  ///
+  /// All parameters are required.
   RadialGaugePainter({
     required this.value,
     required this.innerRadius,
